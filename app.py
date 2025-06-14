@@ -7,7 +7,7 @@ CORS(app)
 
 @app.route("/api")
 def api():
-curl --request GET 
+url --request GET 
 	--url https://bac-bo-brazilian-api.p.rapidapi.com/res_bacbo 
 	--header 'x-rapidapi-host: bac-bo-brazilian-api.p.rapidapi.com' 
 	--header 'x-rapidapi-key: 0c07257e8dmsha69b56748a8a1afp1a39f9jsnf8b438cf1101'
