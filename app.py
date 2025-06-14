@@ -20,7 +20,7 @@ curl --request GET
             "player": h["playerTotal"],
             "banker": h["bankerTotal"],
             "winner": h["winner"]
-        } for h in data.get("history", [])[:20]]
+        } for h in data.get("res_bacbo", [])[:20]]
 
         return jsonify({"historico": historico})
     except Exception as e:
